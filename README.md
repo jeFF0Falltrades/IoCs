@@ -1,5 +1,5 @@
 # IoCs
-A collection of Indicators of Compromise (IoCs), most aligning with samples derived from the signatures in the YARA-Signatures and Malware-Writeups repo.
+A collection of Indicators of Compromise (IoCs), most aligning with samples derived from the signatures in the YARA-Signatures and Malware-Writeups repos.
 
 I am always looking for feedback, corrections, additions, tips, and lessons learned.
 
