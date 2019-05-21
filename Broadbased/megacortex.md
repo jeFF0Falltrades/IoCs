@@ -64,6 +64,10 @@ rule megacortex_ransom {
         $tsv = ".tsv"
         $morpheus = "We can only show you the door"
         $files = "email to us 2 files from random computers"
+        $email_1 = "shawhart1542925@mail.com"
+        $email_2 = "anderssperry6654818@mail.com"
+        $email_3 = "ezequielgramlich6204294@mail.com"
+        $email_4 = "cammostyn9012404@mail.com"
 
     condition:
         2 of them
@@ -142,4 +146,12 @@ bb04c52aa52afc55da5dbd4fda8517973ccd6a826ca0146ed158323db3c3f630
 6c21a1a0b77ec41a214e0fdbc0aeb088ccab6e8b01d90f506e7526843faa6fdd
 40f03dd7c6388c3f1ce7fabc0f76949c4379d278163f2c313a6a43afaed2ccf9
 3ee9b22827cb259f3d69ab974c632cefde71c61b4a9505cec06823076a2f898e
+```
+
+#### Reported Ransom-Recipient Email Addresses
+```
+shawhart1542925@mail.com
+anderssperry6654818@mail.com
+ezequielgramlich6204294@mail.com
+cammostyn9012404@mail.com
 ```
