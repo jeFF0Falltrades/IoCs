@@ -61,6 +61,7 @@ d0d1497a95010e7bf76054da5a797b83667b92ea897e4f0b019a498e554dcd55
 ## Sample C2 
 ***NOTE: Many of the recent payloads use SMTP credentials for data exfil, not captured here as they must be manually parsed***
 ```
-checkip.amazonaws.com
-checkip.dyndns.com
+checkip[.]amazonaws[.]com
+checkip[.]dyndns[.]com
+mail[.]trezaexim[.]com
 ```
