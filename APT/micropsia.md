@@ -34,3 +34,8 @@ e36c51f19362447881e3953271fe1da835f2919a50e9e761f4ccffe3d52b23a7
 fe90cb8d549481833bf72ff7f9e1fdad72e5b886cfa52033771bbb0034b23c32
 ae254ab021632cb583071079b2be8af62ccfc232c687a515a716ea17bfa0db9b
 ```
+
+# Delivery URLs
+```
+https[:]//tinyurl[.]com/7412593655 --> https[:]//uc4688d6b7cd62aec5fe2018c3d1[.]dl[.]dropboxusercontent.com/cd/0/get/Akog8uik0czwfyn4c-3uKNkC7V8tgsjI09CbI6V8FbYhv2D0LGJ87ZjuVXVBnxX37VoUCKrJ-QY7Wq0qauwprW-jvyNArK1rrv3S4EreWmluGA/file?dl=1
+```
