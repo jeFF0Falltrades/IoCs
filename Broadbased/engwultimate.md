@@ -34,6 +34,7 @@ rule EngWUltimate {
 
 ## Sample Hashes
 ```
+8aff01ed4cac3d70f4ea0500146078af77cefcb8ebba86976ddaf3df005facf6
 500cff9ba9d7b2632e61b0bcc8cbfd2f121f693efd4819932c9becf3d4d9d793
 bb70dcdaa7ab425dbc04c841146e337c6ce0e2785bd1ee58e20f35dc310280a1
 8e7ce09e1ebd3b7615b40c33b223732e11904bf967f9bc6242e0c2db2b82f326
@@ -51,6 +52,7 @@ htt[p|s]://domain.[com|tk|usa.cc|???]/[a-z].php?[0-9]+
 
 ## Sample C2s
 ```
+http[:]//litespidchk[.]tk/b[.]php?114
 http[:]//devcommsync[.]tk/0[.]php?179
 http[:]//locdbmngr[.]tk/l[.]php?8406129
 http[:]//locdbmngr[.]c0m.at/l[.]php?7435800
