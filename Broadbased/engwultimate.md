@@ -22,6 +22,7 @@ rule EngWUltimate {
                 $str_2 = "Engr Whizzy" wide ascii nocase
                 $str_3 = "ClipBoard Log" wide ascii 
                 $str_4 = "Keylogger Log" wide ascii 
+                $str_pdb = "C:\\Users\\USER\\AppData\\Roaming\\System\\jobs" wide ascii nocase
                 // ᚰᚣᛓᚦᚸᚸ᚜ᚨᚻᚼᚱᚻ --> decodes to SEtFWV9DVVJSRU5UX1VTRVJcU29mdHdhcmVcTWljcm9zb2Z0XFdpbmRvd3NcQ3VycmVudFZlcnNpb25cUnVu --> decodes to HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
                 $hex_reg = { b0 16 a3 16 d3 16 a6 16 b8 16 b8 16 9c 16 a8 16 bb 16 bc 16 b1 16 bb 16 } 
                 // MD5 hashing func
