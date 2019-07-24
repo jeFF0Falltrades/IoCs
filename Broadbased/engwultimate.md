@@ -44,6 +44,8 @@ fc925bba0b3237445eea496be4ec85081e53ac2b63178da6328815b41f695b5c
 28dd5a6ff7b507cad6d6017bd76f2bfc3c4cbdb0e540220ed7a0d8bc0b7d78be
 49f5adde0e35b8d660ef5429844e509dc570165cb057ca7235108fa4dee465e3
 497c438592c2f769ea5c1ae74f98ddc162cf54791d540db7e2ec6999e59f5939
+cc078932d515993c6882ca14e6ec3945e78a780315d1c9d89efb001a286cedee
+3963a3935b22c8c0e0114d1d65c4c26b54aeaa2204d6a0e8a7138c6a9180dd59
 ```
 
 ## C2 Pattern
@@ -69,4 +71,5 @@ http[:]//guimacdgt[.]tk/e[.]php?103
 http[:]//extlanweb.ze[.]tc/o[.]php?89
 http[:]//extlanweb[.]tk/o[.]php?91
 http[:]//extlanweb[.]com/o[.]php?140
+http[:]//directsvrs[.]tk/s[.]php?149
 ```
