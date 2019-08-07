@@ -15,7 +15,7 @@ rule megacortex_payload {
         reference = "https://news.sophos.com/en-us/2019/05/03/megacortex-ransomware-wants-to-be-the-one/"
 
     condition:
-        uint16(0) == 0x5a4d and ((for any i in (0..pe.number_of_signatures) : (pe.signatures[i].serial == "04:c7:cd:cc:16:98:e2:5b:49:3e:b4:33:8d:5e:2f:8b" or pe.signatures[i].serial == "71:a0:b7:36:95:dd:b1:af:c2:3b:2b:9a:18:ee:54:cb")) or pe.imphash() == "81da9241b26f498f1f7a1123ab76bb9d" or pe.imphash() == "ac3a9bb6fa7b3e8b91bfebe68b0d501b")
+        uint16(0) == 0x5a4d and ((for any i in (0..pe.number_of_signatures) : (pe.signatures[i].serial == "04:c7:cd:cc:16:98:e2:5b:49:3e:b4:33:8d:5e:2f:8b" or pe.signatures[i].serial == "71:a0:b7:36:95:dd:b1:af:c2:3b:2b:9a:18:ee:54:cb" or pe.signatures[i].serial == "5a:59:a6:86:b4:a9:04:d0:fc:a0:71:53:ea:6d:b6:cc")) or pe.imphash() == "81da9241b26f498f1f7a1123ab76bb9d" or pe.imphash() == "ac3a9bb6fa7b3e8b91bfebe68b0d501b" or pe.imphash() == "17c56ef351018d9d9dabf0025a0394ac")
 }
 
 // Fires on the batch file used to stop AV/other services running prior to executing the MegaCortex payload (NOTE: May not be exclusive to MegaCortex)
@@ -121,6 +121,11 @@ f214b81df5c79ff62612536a4c01d14efc9b4f18b1e14e305fb47807a56adfce
 dfc81da1c59d5075935fa185eac08309d40ff0e91884fac353ec230c7fe5f175
 9d38e3d7b4b24e76da00b2f21d67161fa7eabf3d49fa66199655bd8693e83603
 1199af8447c10bf5ebc55dfdc7ab91b3ed7105a6d0289f0a23fbc528f1f52e93
+ea68d92fe813198bf2542ead1b63b943b629fd17f7a625e0a2483ce63121d0fd
+2486b858b7613dd67985164583112fdbfcd56920a815c9e0f2e828910b5a1cac
+039c23ba8d08ad8856759d00abc57f2499b8062e00df4f4f08ae8b8e49659be9
+86aeea7b383e35d4eec0219f031935648ddcf0b257196d3b60e44091ac4e99c2
+77ee63e36a52b5810d3a31e619ec2b8f5794450b563e95e4b446d5d3db4453b2
 ```
 
 #### Meterpreter Payloads Contacting Reported MegaCortex C2
