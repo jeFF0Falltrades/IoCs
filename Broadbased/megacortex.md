@@ -3,6 +3,7 @@
 ## Reporting
 * https://news.sophos.com/en-us/2019/05/03/megacortex-ransomware-wants-to-be-the-one/
 * https://twitter.com/GossiTheDog/status/1124403699508551680
+* https://www.accenture.com/us-en/blogs/blogs-megacortex-business-disruption
 
 ## YARA
 ```yara
@@ -126,6 +127,7 @@ ea68d92fe813198bf2542ead1b63b943b629fd17f7a625e0a2483ce63121d0fd
 039c23ba8d08ad8856759d00abc57f2499b8062e00df4f4f08ae8b8e49659be9
 86aeea7b383e35d4eec0219f031935648ddcf0b257196d3b60e44091ac4e99c2
 77ee63e36a52b5810d3a31e619ec2b8f5794450b563e95e4b446d5d3db4453b2
+acf46be54c303002d74df6c975083c706b3e1cb8a92e75516579cd0fe65ce918
 ```
 
 #### Meterpreter Payloads Contacting Reported MegaCortex C2
