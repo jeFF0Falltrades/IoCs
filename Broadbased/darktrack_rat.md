@@ -22,7 +22,7 @@ rule darktrack_rat {
 		$dt_pass = "].encryptedPassword" wide ascii
 		$dt_yandex = "\\Yandex\\YandexBrowser\\User Data\\Default\\Login Data" wide ascii
 		$dt_alien_0 = "4.0 Alien" wide ascii
-        $dt_alien_1 = "4.1 Alien" wide ascii
+		$dt_alien_1 = "4.1 Alien" wide ascii
 		$dt_victim = "Local Victim" wide ascii
 
 	condition:
