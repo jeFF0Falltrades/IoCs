@@ -1,4 +1,4 @@
-# WSH RAT (WSH RAT - A variant of H-Worm/Houdini)
+# WSH RAT (A variant of H-Worm/Houdini)
 
 ## Reporting
 * https://cofense.com/houdini-worm-transformed-new-phishing-attack
