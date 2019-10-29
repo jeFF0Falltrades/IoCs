@@ -3,6 +3,7 @@
 
 ## Reporting
 * https://usa.kaspersky.com/about/press-releases/2019_dtrack-previously-unknown-spy-tool-hits-financial-institutions-and-research-centers
+* https://twitter.com/a_tweeter_user/status/1188811977851887616?s=20
 
 ## YARA
 ```yara
