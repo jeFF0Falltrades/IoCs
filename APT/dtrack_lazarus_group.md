@@ -7,7 +7,7 @@
 
 ## YARA
 ```yara
-rule dtrack {
+rule dtrack_2019 {
     meta:
         author = "jeFF0Falltrades"
 
