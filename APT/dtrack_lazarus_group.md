@@ -13,21 +13,23 @@ rule dtrack_2019 {
 
     strings:
         $str_log = "------------------------------ Log File Create...." wide ascii
-        $str_conn = "=================== Connection Status ===================" wide ascii
         $str_ua = "CCS_Mozilla/5.0 (Windows NT 6.1" wide ascii
         $str_chrome = "Local Settings\\Application Data\\Google\\Chrome\\User Data\\Default\\History" wide ascii
+        $pdb = "Users\\user\\Documents\\Visual Studio 2008\\Projects\\MyStub\\Release\\MyStub.pdb" wide ascii
         $reg_use = /net use \\\\[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\\C\$ \/delete/
         $reg_move = /move \/y %s \\\\[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\\C\$\\Windows\\Temp\\MpLogs\\/
 
     condition:
-        2 of them
+        2 of them or $pdb
 }
 ```
 
 ## Sample Hashes
 ```
-bfb39f486372a509f307cde3361795a2f9f759cbeb4cac07562dcbaebc070364
 3cc9d9a12f3b884582e5c4daf7d83c4a510172a836de90b87439388e3cde3682
-51ac3966b48c91947de4ce51a90aee9deb730d86cedf8c863d9dcdf0fb322537
 bfb39f486372a509f307cde3361795a2f9f759cbeb4cac07562dcbaebc070364
+51ac3966b48c91947de4ce51a90aee9deb730d86cedf8c863d9dcdf0fb322537
+61c1b9afa2347c315a6b4628f9dff3ada6f8d040345402d4708881f05b1ec48b
+ee9cd8decf752a47eefe24369a806976dce8ac2c29a8271c68bc407326fb19a9
+791c59a0d6456ac1d9976fe82dc6b13f3e5980c6cfa2fd9d58a3cc849755ea9f
 ```
