@@ -13,7 +13,8 @@ rule nanocore_rat {
         author = "jeFF0Falltrades"
     
     strings:
-        $str_nano = "NanoCore.ClientPlugin" wide ascii
+        $str_nano_1 = "NanoCore.ClientPlugin" wide ascii
+        $str_nano_2 = "NanoCore.ClientPluginHost" wide ascii
         $str_plg_1 = "Plugin [{0}] requires an update" wide ascii
         $str_plg_2 = "Plugin [{0}] is being uninstalled" wide ascii
         $str_conn_1 = "PrimaryConnectionHost" wide ascii
