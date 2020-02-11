@@ -16,14 +16,13 @@ rule metamorfo_msi {
   strings:
     $str_1 = "replace(\"pussy\", idpp)" wide ascii nocase
     $str_2 = "GAIPV+idpp+\"\\\\\"+idpp" wide ascii nocase
-    $str_3 = "WScript.Sleep(3000)" wide ascii nocase
-    $str_4 = "StrReverse(\"TEG\")" wide ascii nocase
-    $str_5 = "taller 12.2.1" wide ascii nocase
-    $str_6 = "$bExisteArquivoLog" wide ascii nocase
-    $str_7 = "function unzip(zipfile, unzipdir)" wide ascii nocase
-    $str_8 = "DonaLoad(ArquivoDown" wide ascii nocase
-    $str_9 = "putt_start" wide ascii nocase
-    $str_10 = "FilesInZip= zipzipp" wide ascii nocase
+    $str_3 = "StrReverse(\"TEG\")" wide ascii nocase
+    $str_4 = "taller 12.2.1" wide ascii nocase
+    $str_5 = "$bExisteArquivoLog" wide ascii nocase
+    $str_6 = "function unzip(zipfile, unzipdir)" wide ascii nocase
+    $str_7 = "DonaLoad(ArquivoDown" wide ascii nocase
+    $str_8 = "putt_start" wide ascii nocase
+    $str_9 = "FilesInZip= zipzipp" wide ascii nocase
 
   condition:
     2 of them
