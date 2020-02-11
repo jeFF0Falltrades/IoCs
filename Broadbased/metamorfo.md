@@ -23,6 +23,7 @@ rule metamorfo_msi {
     $str_7 = "DonaLoad(ArquivoDown" wide ascii nocase
     $str_8 = "putt_start" wide ascii nocase
     $str_9 = "FilesInZip= zipzipp" wide ascii nocase
+    $str_10 = "@ u s e r p r o f i l e @\"+ppasta" wide ascii nocase
 
   condition:
     2 of them
