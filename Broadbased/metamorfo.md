@@ -24,6 +24,7 @@ rule metamorfo_msi {
     $str_8 = "putt_start" wide ascii nocase
     $str_9 = "FilesInZip= zipzipp" wide ascii nocase
     $str_10 = "@ u s e r p r o f i l e @\"+ppasta" wide ascii nocase
+    $str_11 = "getFolder(unzipdir).Path" wide ascii nocase
 
   condition:
     2 of them
