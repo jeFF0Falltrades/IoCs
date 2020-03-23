@@ -6,7 +6,7 @@
 
 ## YARA
 ```yara
-rule blackremote_blackrat_2020
+rule blackremote_blackrat_payload_2020
 {
     meta:
         author = "jeFF0Falltrades"
