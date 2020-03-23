@@ -43,7 +43,7 @@ rule blackremote_blackrat_proclient_2020
 	$str_10 = "RemoteAudioGetInfo" wide ascii nocase
 
     condition:
-    	3 of them
+    	4 of them
 }
 ```
 
