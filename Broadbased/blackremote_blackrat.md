@@ -22,10 +22,34 @@ rule blackremote_blackrat_2020
     condition:
         2 of them and (1 of ($re*) or $hex_rsrc)
 }
+
+rule blackremote_blackrat_proclient_2020
+{
+    meta:
+        author = "jeFF0Falltrades"
+        ref = "https://unit42.paloaltonetworks.com/blackremote-money-money-money-a-swedish-actor-peddles-an-expensive-new-rat/"
+
+    strings:
+		$str_0 = "K:\\5.0\\Black Server 5.0\\BlackServer\\bin\\Release\\BlackRATServerM.pdb" wide ascii nocase
+		$str_1 = "BlackRATServerM.pdb" wide ascii nocase
+		$str_2 = "RATTypeBinder" wide ascii nocase
+		$str_3 = "ProClient.dll" wide ascii nocase
+		$str_4 = "Clientx.dll" wide ascii nocase
+		$str_5 = "FileMelting" wide ascii nocase
+		$str_6 = "Foxmail.url.mailto\\Shell\\open\\command" wide ascii nocase
+		$str_7 = "SetRemoteDesktopQuality" wide ascii nocase
+		$str_8 = "RecoverChrome" wide ascii nocase
+		$str_9 = "RecoverFileZilla" wide ascii nocase
+		$str_10 = "RemoteAudioGetInfo" wide ascii nocase
+
+    condition:
+        3 of them
+}
 ```
 
 ## Sample Hashes
 ```
+d7a80e707fe7febd8a4de922f15f1419b679fe8f3420a4a8ccf2bd2bb64c52e5
 2b3cda455f68a9bbbeb1c2881b30f1ee962f1c136af97bdf47d8c9618b980572
 105cab9c9604238c05be167c6d8d47cd2bc0427b07ede08c5571b581ebd80001
 1737cf3aec9f56bb79a0c4e3010f53536c36a1fbeeedea81b6d7b66074ecffbe
