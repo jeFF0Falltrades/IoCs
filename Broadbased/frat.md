@@ -59,7 +59,7 @@ rule frat_executable {
 ## Sample Hashes
 ### FRat Loader Scripts
 ```
-0e5440bea9aedce482915a83919ad07261479343fd5709b08a6ffc97ea830cba
+dc948f4aacc765b1fbdd58372bb847750fcf08544841ef4a44454da8e3b46bae
 ```
 
 ### FRat Executables
