@@ -5,6 +5,8 @@
 *The name 'FRat' was derived from research by @James_inthe_box, seen in the linked Tweet thread below.*
 
 *If you have more information on this threat, please contact me on Twitter*
+
+A RAT employing Node.js, Sails, and Socket.IO to collect information on a target.
  
 
 ## Reporting
