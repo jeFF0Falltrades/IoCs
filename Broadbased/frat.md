@@ -60,7 +60,6 @@ rule frat_executable {
 ### FRat Loader Scripts
 ```
 0e5440bea9aedce482915a83919ad07261479343fd5709b08a6ffc97ea830cba
-0e5440bea9aedce482915a83919ad07261479343fd5709b08a6ffc97ea830cba
 ```
 
 ### FRat Executables
